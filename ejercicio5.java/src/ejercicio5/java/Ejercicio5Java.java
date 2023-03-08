@@ -3,23 +3,27 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejercicio2.java;
+package ejercicio4.java;
 
 import java.util.Scanner;
-public class Ejercicio2Java {
+
+public class Ejercicio5Java {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Scanner leer = new Scanner (System.in);
-        String name;
-        System.out.println( "ingrese un nombre");
-        name=leer.nextLine();
-        System.out.print("ingrese un nombre"+ name);
+        float C;
+        System.out.println("ingrese un numero");
+        C=entrada.nextFloat();
+        float F = 32 + (9 * C / 5);
+       System.out.println("Los grados centigrados correspondiente es igual: " + (F));
         
-              
-                
+        
+        
+        
+        
+        
     }
     
 }
